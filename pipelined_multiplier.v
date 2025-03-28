@@ -2,7 +2,7 @@ module pipelined_multiplier (
     input clk,                 
     input rst,                 
     input [10:0] n1,           
-    input [7:0] n2,           
+    input [7:0] n2,        
     output reg [18:0] product  
 );
 
